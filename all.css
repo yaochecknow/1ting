@@ -1,0 +1,1008 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font: 12px Arial, Helvetica, sans-serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #00a7ff;
+  text-decoration: underline;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+.O124_head {
+  width: 100%;
+  height: 25px;
+  border-bottom: 1px solid #cdd4dc;
+}
+.O124_head .O124_headcenter {
+  width: 960px;
+  margin: 0 auto;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+.O124_head .O124_headcenter td {
+  padding-left: 10px;
+  border-right: 1px solid #c9e5f7;
+}
+.O124_head .O124_headcenter .middlewhite {
+  width: 400px;
+}
+.O124_head .O124_headcenter .stararea {
+  text-align: right;
+  width: 60px;
+  background: url(./oneimg/star.png) no-repeat transparent;
+}
+.O124_main {
+  width: 960px;
+  margin: 0 auto;
+}
+.O124_logo {
+  width: 230px;
+  height: 72px;
+  background: url(./oneimg/log.png) no-repeat;
+}
+.O124_main .O124_search {
+  width: 426px;
+}
+.O124_main .O124_search .O124_searchmain {
+  border: 1px solid #88d1fa;
+  border-radius: 30px;
+}
+.O124_choice {
+  height: 30px;
+  width: 66px;
+}
+.O124_import {
+  background: url(./oneimg/allstring.png) no-repeat transparent;
+}
+.O124_import input {
+  border: 0;
+  height: 30px;
+}
+.O124_seabutton {
+  background-color: #0fa2f6;
+  width: 66px;
+  color: white;
+  text-align: center;
+}
+.O124_login {
+  font: 12px Arial, Helvetica, sans-serif;
+}
+.O124_login td {
+  padding-left: 3px;
+  height: 20px;
+}
+.O124_login .O124_free {
+  text-align: right;
+}
+.O124_login .O124_weibo {
+  padding-left: 20px;
+  background: url(./oneimg/xinlang.png) no-repeat;
+}
+.O124_login .O124_qq {
+  padding-left: 20px;
+  background: url(./oneimg/qq.png) no-repeat;
+}
+.O124_login .O124_mycollect a {
+  color: #0093e1;
+}
+.O124_twomain {
+  width: 960px;
+  margin: 0 auto;
+}
+.O124_mainnavi {
+  height: 38px;
+  background-color: #00a7ff;
+}
+.O124_mainnavi td a {
+  color: #fff;
+  font-weight: bold;
+}
+.O124_mainnavi a {
+  font-size: 14px;
+}
+.O124_mainnavi .O124_naviwidn {
+  text-align: center;
+  width: 72px;
+}
+.O124_mainnavi .O124_naviwid {
+  text-align: center;
+  background: url(./oneimg/mainnavistring.png) no-repeat;
+  width: 72px;
+}
+.O124_mainnavi .O124_naviwid2 {
+  background: url(./oneimg/mainnavistring.png) no-repeat;
+  text-align: center;
+  width: 90px;
+}
+.O124_mainnavi .O124_randomlis {
+  width: 120px;
+}
+.O124_mainnavi .O124_inrandomta {
+  height: 28px;
+  padding-right: 10px;
+  width: 100px;
+}
+.O124_inrandomta .O124_inrandomtd {
+  border: 2px solid #017eff;
+  background: url(./oneimg/lislogo.png) no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.O124_mainnavi .O124_rank {
+  text-align: right;
+  font-weight: bold;
+  width: 216px;
+}
+.O124_mainnavi .O124_rank2 {
+  background: url(./oneimg/mainnavistring2.png) no-repeat;
+  background-position-y: center;
+  background-position-x: 7px;
+  font-weight: bold;
+  text-align: center;
+  width: 216px;
+}
+.O124_mainnavi .O124_rank a {
+  color: #d9efff;
+}
+.O124_mainnavi .O124_rank2 a {
+  color: #d9efff;
+}
+.O124_threemain {
+  width: 960px;
+  margin: 0 auto;
+}
+.O124_threemain .O124_seconavi {
+  height: 34px;
+  background-color: #f2f6f8;
+}
+.O124_threemain .O124_seconavi .O124_insecoavi {
+  text-align: center;
+  height: 20px;
+}
+.O124_seconavi .O124_insecoavi a {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: #999;
+}
+.O124_seconavi .O124_insecoavi td {
+  vertical-align: middle;
+  background: url(./oneimg/secdnavistring.png) no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.O124_seconavi .O124_insecoavi .O124_insecoavired a {
+  color: red;
+}
+.O124_fourmain {
+  width: 960px;
+  margin: 0 auto;
+}
+.O124_fourmain .O124_fourleft {
+  width: 240px;
+  height: 392px;
+}
+.O124_fourmain .O124_fourleft .O124_fourlefttop {
+  height: 190px;
+  border: 1px solid #cdd4dc;
+  border-collapse: separate;
+}
+.O124_fourmain .O124_fourleft .O124_fourleftdown {
+  height: 190px;
+  border-collapse: separate;
+  border: 1px solid #cdd4dc;
+  margin-top: 8px;
+}
+.O124_fourlefttop .O124_morewind {
+  background: url(./oneimg/rightlog.png) no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.O124_fourlefttop .O124_morewind a {
+  color: #999;
+}
+.O124_fourmain .O124_fourleft .spcfourlefttop {
+  border-bottom: 1px solid #cdd4dc;
+  height: 26px;
+}
+.O124_fourleft .O124_infourlefttop {
+  height: 33px;
+  border-bottom: 1px solid #cdd4dc;
+}
+.O124_infourlefttop td {
+  text-align: center;
+}
+.O124_fourleft a {
+  color: #666;
+  font: 12px Arial, Helvetica, sans-serif;
+}
+.O124_fourleft a:hover {
+  color: blue;
+  font: 12px Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+.O124_morewind {
+  background: url(./oneimg/rightlog.png) no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.O124_fourmiddle {
+  width: 485px;
+  height: 392px;
+}
+.O124_fourmiddle .O124_infourmiddle {
+  margin-left: 8px;
+}
+.O124_fourmiddle .O124_infourmiddle .O124_infourmiddletop {
+  width: 480px;
+  height: 30px;
+  border: 1px solid #cdd4dc;
+}
+.O124_infourmiddlemiddle {
+  margin-top: 12px;
+}
+.O124_infourmiddletopsp {
+  border-right: 1px solid #cdd4dc;
+  width: 270px;
+  color: #666;
+  font-weight: bold;
+}
+.O124_infourmiddletoppu {
+  text-align: center;
+  width: 70px;
+  border-right: 1px solid #cdd4dc;
+}
+.O124_infourmiddletop a {
+  color: #777;
+}
+.O124_infourmiddletop a:hover {
+  color: #0093e1;
+}
+.O124_infourmiddletoppu:active {
+  background-color: #777;
+  text-align: center;
+  width: 70px;
+  border-right: 1px solid #cdd4dc;
+}
+.O124_infourmiddlemiddle {
+  margin-top: 12px;
+  height: 164px;
+}
+.O124_infourmiddlemiddle img {
+  width: 112px;
+  height: 112px;
+}
+.O124_infourmiddlemiddle td {
+  height: 29px;
+}
+.O124_infourmiddledown {
+  margin-top: 12px;
+  height: 164px;
+}
+.O124_infourmiddledown img {
+  width: 112px;
+  height: 112px;
+}
+.O124_infourmiddledown td {
+  height: 29px;
+}
+.O124_infourright {
+  margin-left: 8px;
+  width: 224px;
+  height: 391px;
+}
+.O124_infourrighton {
+  height: 190px;
+}
+.O124_infourrightdown {
+  height: 190px;
+  margin-top: 10px;
+}
+.O124_infourrighton img {
+  width: 224px;
+  height: 190px;
+}
+.O124_infourrightdown img {
+  width: 224px;
+  height: 190px;
+}
+.O124_fivemain {
+  width: 960px;
+  margin: 0 auto;
+}
+.O124_adverpictarea1 img {
+  width: 728px;
+  height: 90;
+}
+.O124_adverpictarea2 {
+  width: 224px;
+  height: 90px;
+  margin-left: 8px;
+}
+.O124_inadverpictarea2 {
+  width: 224px;
+  height: 90px;
+  background: url(./oneimg/adverback.png) no-repeat;
+  background-size: contain;
+}
+.O124_inadverpictarea2 td {
+  width: 224px;
+  height: 24px;
+  text-align: center;
+  background: url(./oneimg/rightlog.png) no-repeat;
+  background-position-y: center;
+  background-position-x: 10px;
+}
+.O124_sixmain {
+  width: 960px;
+  margin: 0 auto;
+}
+.O124_sixmainleft {
+  width: 726px;
+  height: 682px;
+}
+.O124_musiclist1 {
+  height: 582px;
+  width: 682px;
+}
+.O124_musiclist1 .O124_inmusiclist11 {
+  width: 243px;
+  border: 1px solid #aacbee;
+}
+.O124_musiclist1 .O124_inmusiclist12 {
+  width: 243px;
+  border: 1px solid #aacbee;
+}
+.O124_musiclist1 .O124_inmusiclist13 {
+  width: 244px;
+  border: 1px solid #aacbee;
+}
+.O124_inmusiclist11 > tbody > tr > td {
+  height: 26px;
+  border-bottom: 1px dotted #dfdfdf;
+  vertical-align: middle;
+}
+.O124_inmusiclist11 > tbody > tr > td input {
+  margin-left: 10px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.O124_inmusiclist11 > tbody > tr > td a {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: black;
+}
+.O124_inmusiclist11 > tbody > tr > td a:hover {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: red;
+}
+.O124_inmusiclist11 > tbody > tr:nth-child(1) > td {
+  height: 29px;
+  width: 242px;
+  background-color: #dcf2fa;
+  border: 1px solid #aacbee;
+  border-left: none;
+  border-top: none;
+}
+.O124_inmusiclist11 .O124_listhead > tbody > tr > td:nth-child(1) h2 {
+  width: 64px;
+  text-align: center;
+  color: #0f365e;
+  font-size: 12px;
+}
+.O124_inmusiclist11 .O124_listhead > tbody > tr > td:nth-child(2) {
+  width: 134px;
+}
+.O124_inmusiclist11 .O124_listhead > tbody > tr > td:nth-child(3) {
+  width: 44px;
+}
+.O124_musiclist_downturn_area{
+    margin-left: 16px;
+    width: 206px;
+    height: 23px;
+    margin-top: 3px;
+}
+.O124_musiclist_downturn1{
+    height: 23px;
+    width: 72px;
+    background-color: #f7f7f7;
+}
+.O124_inmusiclist_downturn1{
+    border: 1px solid #b6b5b4;
+    background: url(./oneimg/backchoice.png) no-repeat;
+    background-position-y: center;
+    background-position-x: 3px;
+    text-align: center;
+}
+.O124_inmusiclist_downturn1 a{
+    color: #9b9b9b;
+}
+.O124_musiclist_downturn1:hover{
+    background-color: black;
+}
+.O124_musiclist_downturn1:hover a{
+    color: white;
+}
+.O124_musiclist_downturn2{
+    height: 23px;
+    width: 56px;
+    background-color: #fff781;
+}
+.O124_inmusiclist_downturn2{
+    border: 1px solid #d08a04;
+    background: url(./oneimg/yelloright.png) no-repeat;
+    background-position-y: center;
+    background-position-x: 3px;
+    text-align: center;
+}
+.O124_inmusiclist_downturn2 a{
+    color: #d08a04;
+}
+.O124_musiclist_downturn2:hover{
+    background-color: #d08a04;
+}
+.O124_inmusiclist_downturn2:hover a{
+    color: white;
+}
+.O124_musiclist_downturn3{
+    height: 23px;
+    width: 72px;
+    background-color: #effcff;
+}
+.O124_inmusiclist_downturn3{
+    border: 1px solid #658eae;
+    background-position-y: center;
+    background-position-x: 3px;
+    text-align: center;
+}
+.O124_inmusiclist_downturn3 a{
+    color: #658eae;
+}
+.O124_musiclist_downturn3:hover{
+    background-color: #658eae;
+}
+.O124_musiclist_downturn3:hover a{
+    color: white;
+}
+.recomd {
+  color: #f60;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 38px;
+  position: absolute;
+  border: 1px solid #aacbee;
+  border-bottom: none;
+  background-color: #ffffff;
+  margin-top: -10px;
+}
+.O124_inmusiclist12 > tbody > tr > td {
+  height: 26px;
+  border-bottom: 1px dotted #dfdfdf;
+  vertical-align: middle;
+}
+.O124_inmusiclist12 > tbody > tr > td input {
+  margin-left: 10px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.O124_inmusiclist12 > tbody > tr > td a {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: black;
+}
+.O124_inmusiclist12 > tbody > tr > td a:hover {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: red;
+}
+.O124_inmusiclist12 > tbody > tr:nth-child(1) > td {
+  height: 29px;
+  width: 242px;
+  background-color: #dcf2fa;
+  border: 1px solid #aacbee;
+  border-left: none;
+  border-top: none;
+}
+.O124_inmusiclist12 .O124_listhead > tbody > tr > td:nth-child(1) h2 {
+  width: 64px;
+  text-align: center;
+  color: #0f365e;
+  font-size: 12px;
+}
+.O124_inmusiclist12 .O124_listhead > tbody > tr > td:nth-child(2) {
+  width: 134px;
+}
+.O124_inmusiclist12 .O124_listhead > tbody > tr > td:nth-child(3) {
+  width: 44px;
+}
+.O124_inmusiclist13 > tbody > tr > td {
+  height: 26px;
+  border-bottom: 1px dotted #dfdfdf;
+  vertical-align: middle;
+}
+.O124_inmusiclist13 > tbody > tr > td input {
+  margin-left: 10px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.O124_inmusiclist13 > tbody > tr > td a {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: black;
+}
+.O124_inmusiclist13 > tbody > tr > td a:hover {
+  font: 12px Arial, Helvetica, sans-serif;
+  color: red;
+}
+.O124_inmusiclist13 > tbody > tr:nth-child(1) > td {
+  height: 29px;
+  width: 242px;
+  background-color: #dcf2fa;
+  border: 1px solid #aacbee;
+  border-left: none;
+  border-top: none;
+}
+.O124_inmusiclist13 .O124_listhead > tbody > tr > td:nth-child(1) h2 {
+  width: 64px;
+  text-align: center;
+  color: #0f365e;
+  font-size: 12px;
+}
+.O124_inmusiclist13 .O124_listhead > tbody > tr > td:nth-child(2) {
+  width: 134px;
+}
+.O124_inmusiclist13 .O124_listhead > tbody > tr > td:nth-child(3) {
+  width: 44px;
+}
+.O124_sixleftadver {
+  height: 90px;
+  width: 728px;
+  margin-top: 8px;
+}
+.O124_sixleftadver img {
+  width: 728px;
+  height: 90px;
+}
+.O124_sixmainright {
+  width: 224px;
+  height: 682px;
+}
+.O124_insixright {
+  margin-left: 8px;
+}
+.O124_insixright .O124_sixright_on {
+  height: 424px;
+  width: 224px;
+  border: 1px solid #ffb562;
+  overflow: hidden;
+}
+.O124_insixright .O124_sixright_on .O124_sixright_on_head {
+  height: 26px;
+  background-color: #ffb04a;
+  position: relative;
+}
+.O124_insixright .O124_sixright_on .O124_sixright_on_head h2 {
+  color: white;
+  font-size: 12px;
+  margin-left: 8px;
+}
+.O124_sixright_on_head .O124_recom_chinese {
+    text-align: center;
+    width: 32px;
+    height: 17px;
+  position: absolute;
+  left: 120px;
+  top: 8px;
+  background-color: white;
+  border: 1px solid #ffb562;
+  border-bottom: none;
+}
+.O124_sixright_on_head .O124_recom_Amer{
+    text-align: center;
+    width: 32px;
+    height: 17px;
+  position: absolute;
+  left: 154px;
+  top: 8px;
+  border-bottom: none;
+}
+.O124_sixright_on_head .O124_recom_Jan{
+    text-align: center;
+    width: 32px;
+    height: 17px;
+  position: absolute;
+  left: 186px;
+  top: 8px;
+  border-bottom: none;
+}
+.O124_insixright .O124_sixright_on .O124_sixright_on_middle {
+  height: 192px;
+}
+.O124_sixright_on_middle td{
+    width: 68px;
+    height: 90px;
+    padding: 4px;
+}
+.O124_sixright_on_middle img{
+    width: 68px;
+    height: 90px;
+}
+.O124_insixright .O124_sixright_on .O124_sixright_on_down {
+  height: 190px;
+  margin: 4px;
+}
+.O124_insixright .O124_sixright_on .O124_sixright_on_down td{
+    border: 1px dotted #dfdfdf;
+    text-align: center;
+    border-left: none;
+    border-bottom: none;
+}
+.O124_insixright .O124_sixright_down {
+    margin-top: 8px;
+    height: 250px;
+    width: 230px;
+    border:1px solid #aacbee;
+}
+.O124_sixright_down_top{
+    height: 29px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #cde0f5;
+}
+.O124_sixright_down_middle{
+    height: 77px;
+}
+.O124_sixright_down_down{
+    height: 134px;
+}
+.O124_muscifestive{
+    margin: 4px 2px 0px 2px;
+}
+.O124_muscifestive img{
+    width: 222px;
+    height: 56px;
+}
+.O124_muscifestive .O124_festievcha{
+    width: 222px;
+    background: #333333;
+    margin-top: -3px;
+}
+.O124_muscifestive .O124_festievcha a{
+    color: #fc6;
+}
+.O124_insixright_down_down tbody>tr>td{
+    background: url(./oneimg/rightlog.png) no-repeat;
+    text-align: center;
+    height: 23px;
+    background-position-y: center;
+}
+.O124_insixright_down_down tbody>tr>td a{
+    color: #0066cc;
+}
+.O124_insixright_down_down tbody>tr>td a:hover{
+    color: red;
+}
+.O124_sevenmain{
+    width: 960px;
+    margin: 0 auto;
+}
+.O124_sevenmainleft {
+    width: 726px;
+    height: 480px;
+  }
+  .O124_musiclist2{
+    height: 480px;
+    width: 682px;
+  }
+  .O124_musiclist2 .O124_inmusiclist21 {
+    width: 243px;
+    border: 1px solid #aacbee;
+  }
+  .O124_musiclist2 .O124_inmusiclist22 {
+    width: 243px;
+    border: 1px solid #aacbee;
+  }
+  .O124_musiclist2 .O124_inmusiclist23 {
+    width: 244px;
+    border: 1px solid #aacbee;
+  }
+  .O124_inmusiclist21 > tbody > tr > td {
+    height: 26px;
+    border-bottom: 1px dotted #dfdfdf;
+    vertical-align: middle;
+  }
+  .O124_inmusiclist21 > tbody > tr > td input {
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .O124_inmusiclist21 > tbody > tr > td a {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  .O124_inmusiclist21 > tbody > tr > td a:hover {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: red;
+  }
+  .O124_inmusiclist21 > tbody > tr:nth-child(1) > td {
+    height: 29px;
+    width: 242px;
+    background-color: #dcf2fa;
+    border: 1px solid #aacbee;
+    border-left: none;
+    border-top: none;
+  }
+  .O124_inmusiclist21 .O124_listhead > tbody > tr > td:nth-child(1) h2 {
+    width: 64px;
+    text-align: center;
+    color: #0f365e;
+    font-size: 12px;
+  }
+  .O124_inmusiclist21 .O124_listhead > tbody > tr > td:nth-child(2) {
+    width: 134px;
+  }
+  .O124_inmusiclist21 .O124_listhead > tbody > tr > td:nth-child(3) {
+    width: 44px;
+  }
+  .O124_musiclist_downturn_area{
+      margin-left: 16px;
+      width: 206px;
+      height: 23px;
+      margin-top: 3px;
+  }
+  .O124_musiclist_downturn1{
+      height: 23px;
+      width: 72px;
+      background-color: #f7f7f7;
+  }
+  .O124_inmusiclist_downturn1{
+      border: 1px solid #b6b5b4;
+      background: url(./oneimg/backchoice.png) no-repeat;
+      background-position-y: center;
+      background-position-x: 3px;
+      text-align: center;
+  }
+  .O124_inmusiclist_downturn1 a{
+      color: #9b9b9b;
+  }
+  .O124_musiclist_downturn1:hover{
+      background-color: black;
+  }
+  .O124_musiclist_downturn1:hover a{
+      color: white;
+  }
+  .O124_musiclist_downturn2{
+      height: 23px;
+      width: 56px;
+      background-color: #fff781;
+  }
+  .O124_inmusiclist_downturn2{
+      border: 1px solid #d08a04;
+      background: url(./oneimg/yelloright.png) no-repeat;
+      background-position-y: center;
+      background-position-x: 3px;
+      text-align: center;
+  }
+  .O124_inmusiclist_downturn2 a{
+      color: #d08a04;
+  }
+  .O124_musiclist_downturn2:hover{
+      background-color: #d08a04;
+  }
+  .O124_inmusiclist_downturn2:hover a{
+      color: white;
+  }
+  .O124_musiclist_downturn3{
+      height: 23px;
+      width: 72px;
+      background-color: #effcff;
+  }
+  .O124_inmusiclist_downturn3{
+      border: 1px solid #658eae;
+      background-position-y: center;
+      background-position-x: 3px;
+      text-align: center;
+  }
+  .O124_inmusiclist_downturn3 a{
+      color: #658eae;
+  }
+  .O124_musiclist_downturn3:hover{
+      background-color: #658eae;
+  }
+  .O124_musiclist_downturn3:hover a{
+      color: white;
+  }
+  .recomd {
+    color: #f60;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 38px;
+    position: absolute;
+    border: 1px solid #aacbee;
+    border-bottom: none;
+    background-color: #ffffff;
+    margin-top: -10px;
+  }
+  .O124_inmusiclist22 > tbody > tr > td {
+    height: 26px;
+    border-bottom: 1px dotted #dfdfdf;
+    vertical-align: middle;
+  }
+  .O124_inmusiclist22 > tbody > tr > td input {
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .O124_inmusiclist22 > tbody > tr > td a {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  .O124_inmusiclist22 > tbody > tr > td a:hover {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: red;
+  }
+  .O124_inmusiclist22 > tbody > tr:nth-child(1) > td {
+    height: 29px;
+    width: 242px;
+    background-color: #dcf2fa;
+    border: 1px solid #aacbee;
+    border-left: none;
+    border-top: none;
+  }
+  .O124_inmusiclist22 .O124_listhead > tbody > tr > td:nth-child(1) h2 {
+    width: 64px;
+    text-align: center;
+    color: #0f365e;
+    font-size: 12px;
+  }
+  .O124_inmusiclist22 .O124_listhead > tbody > tr > td:nth-child(2) {
+    width: 134px;
+  }
+  .O124_inmusiclist22 .O124_listhead > tbody > tr > td:nth-child(3) {
+    width: 44px;
+  }
+  .O124_inmusiclist23 > tbody > tr > td {
+    height: 26px;
+    border-bottom: 1px dotted #dfdfdf;
+    vertical-align: middle;
+  }
+  .O124_inmusiclist23 > tbody > tr > td input {
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .O124_inmusiclist23 > tbody > tr > td a {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  .O124_inmusiclist23 > tbody > tr > td a:hover {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: red;
+  }
+  .O124_inmusiclist23 > tbody > tr:nth-child(1) > td {
+    height: 29px;
+    width: 242px;
+    background-color: #dcf2fa;
+    border: 1px solid #aacbee;
+    border-left: none;
+    border-top: none;
+  }
+  .O124_inmusiclist23 .O124_listhead > tbody > tr > td:nth-child(1) h2 {
+    width: 64px;
+    text-align: center;
+    color: #0f365e;
+    font-size: 12px;
+  }
+  .O124_inmusiclist23 .O124_listhead > tbody > tr > td:nth-child(2) {
+    width: 134px;
+  }
+  .O124_inmusiclist23 .O124_listhead > tbody > tr > td:nth-child(3) {
+    width: 44px;
+  }
+  .O124_spec_musiclist{
+      height: 590px;
+      width: 224px;
+      margin-left: 8px;
+  }
+  .O124_inspec_musiclist{
+      overflow: hidden;
+      border: 1px solid #aacbee;
+  }
+  .O124_spec_musiclist .O124_inspec_head{
+    background-color: #f8fbff;
+      height: 30px;
+      border-bottom: 1px solid #cde0f5;
+  }
+  .O124_inspec_head .O124_hot_head{
+      width: 100px;
+      text-align: center;
+  }
+  .O124_inspec_head .O124_inspec_more{
+      text-align: center;
+      width: 50px;
+      background: url(./oneimg/blueright.png) no-repeat;
+      background-position-y: center;
+  }
+  .O124_inspec_head .O124_inspec_more a{
+      color: #7cb4ee;
+  }
+  .O124_inspec_head .O124_inspec_more a:hover{
+      color: black;
+  }
+  .O124_spec_albumarea{
+      height: 80px;
+      border-bottom: 1px dotted #dfdfdf;
+  }
+  .O124_spec_albumarea .O124_album_picture_area{
+      margin: 8px 4px;
+  }
+  .O124_spec_albumarea .O124_album_picture_area img{
+      width: 64px;
+      height: 64px;
+  }
+  .O124_turnon_area{
+      width: 140px;
+  }
+  .O124_turnon_area tbody tr td{
+      height: 18px;
+  }
+  .O124_album_spce_chart{
+      color: red;
+  }
+  .O124_album_spce_chart a{
+      color: #0066cc;  
+  }
+  .O124_album_spce_chart a:hover{
+      color: red;
+  }
+  .O124_allturn_button{
+      height: 20px;
+      width: 72px;
+      border: 1px solid #cccccc;
+      background: url(./oneimg/yelloright.png) no-repeat;
+      background-position-y: center;
+      background-position-x: 4px;
+      background-color: #fafafa;;
+  }
+  .O124_allturn_button >tbody>tr>td{
+      text-align: center;
+  }
+  .O124_allturn_button >tbody>tr>td a{
+      color: #858585;
+  }
+  .O124_usual_musiclist{
+      margin: 4px;
+      height: 35px;
+      border-bottom: 1px dotted #dfdfdf;
+  }
+  .O124_inusual_td1{
+      color: red;
+  }
+  .O124_inusual_td1 a{
+      color: #3a89d8;
+  }
+  .O124_inusual_td2{
+      color: #999999;
+      width:50px; 
+  }
+  .O124_big_adver{
+      width: 960px;
+      margin: 0 auto;
+  }
+  .O124_big_adver img{
+      height: 90px;
+      width: 960px;
+  }
+  .O124_friend_link{
+      margin: 0 auto;
+      width: 960px;
+  }
+  .O124_infriend_link{
+      width: 960px;
+      height: 110px;
+      border: 1px solid #b2d0ea;
+  }
