@@ -1006,3 +1006,86 @@ table {
       height: 110px;
       border: 1px solid #b2d0ea;
   }
+  .O124_infriend_top{
+      height: 27px;
+      background-color: #eff8fd;
+  }
+  .O124_infriend_top >tbody>tr>td:nth-child(1){
+      width: 60px;
+      text-align: center;
+      font-weight: bold;
+  }
+  .O124_infriend_top >tbody>tr>td:nth-child(3){
+      width: 64px;
+      background: url(./oneimg/blueright.png) no-repeat;
+      background-position-x: 50px;;
+      background-position-y: center;
+  }
+  .O124_infriend_top >tbody>tr>td:nth-child(3) a{
+    color: #888;
+  }
+  .O124_infriend_down >tbody>tr>td{
+      text-align: center;
+      height: 26px;
+  }
+  .O124_infriend_down >tbody>tr>td a{
+    color: #666;
+  }
+  .O124_foot_main{
+      width: 960px;
+      margin: 0 auto;
+      height: 80px;
+      border-top: 1px solid #b2d0ea;
+  }
+  .O124_foot_head_left{
+      width: 470px;
+  }
+  .O124_foot_head_left >tbody>tr>td{
+      width: 80px;
+      text-align: center;
+      background: url(./oneimg/foot_string.png) no-repeat;
+      background-position-x: right;
+      background-position-y: center;
+  }
+  .O124_foot_head_left >tbody>tr>td:nth-child(1){
+      border: none;
+      width: 200px;
+  }
+  .O124_foot_head_right{
+      margin-left: 6px;
+      width: 470px;
+  }
+  .O124_foot_head_right >tbody>tr>td{
+      text-align: center;
+      background: url(./oneimg/foot_string.png) no-repeat;
+      background-position-x: left;
+      background-position-y: center;
+  }
+  .O124_foot_head_right >tbody>tr>td:nth-child(n+5){
+      width: 130px;
+      border: none;
+  }
+  .O124_foot_middle{
+      height: 25px;
+  }
+  .O124_foot_middle >tbody>tr>td{
+      text-align: center;
+      color: #888;
+      font-size: 12px;
+  }
+  .O124_foot_middle >tbody>tr>td a{
+      color: #0099ff;
+  }
+  .O124_foot_down{
+      height: 30px;
+  }
+  .O124_foot_down >tbody>tr>td{
+      text-align: center;
+      background:url(./oneimg/foot_string.png) no-repeat;
+      background-position-x: right;
+      background-position-y: center;
+  }
+  .O124_foot_down >tbody>tr>td:nth-child(6){
+      width: 50px;
+      background: none;
+  }
