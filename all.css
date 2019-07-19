@@ -2,6 +2,11 @@
   margin: 0px;
   padding: 0px;
 }
+input, button, textarea {
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    }
 body {
   font: 12px Arial, Helvetica, sans-serif;
 }
@@ -14,7 +19,6 @@ a:hover {
   text-decoration: underline;
 }
 table {
-  border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
 }
@@ -29,16 +33,25 @@ table {
   font: 12px Arial, Helvetica, sans-serif;
 }
 .O124_head .O124_headcenter td {
-  padding-left: 10px;
-  border-right: 1px solid #c9e5f7;
+    height: 22px;
+  text-align: center;
+  background: url(./oneimg/topheadstring.png) no-repeat;
+  background-position-x: right;
+  background-position-y: center;
 }
-.O124_head .O124_headcenter .middlewhite {
-  width: 400px;
+.O124_head .O124_headcenter >table>tbody>tr>td:nth-child(6){
+    width: 500px;
+    background: none;
+    text-align: left;
+}
+.O124_head .O124_headcenter >table>tbody>tr>td:nth-child(5){
+    background: none;
 }
 .O124_head .O124_headcenter .stararea {
   text-align: right;
-  width: 60px;
+  width: 70px;
   background: url(./oneimg/star.png) no-repeat transparent;
+  background-position-y: center;
 }
 .O124_main {
   width: 960px;
@@ -53,10 +66,11 @@ table {
   width: 426px;
 }
 .O124_main .O124_search .O124_searchmain {
-  border: 1px solid #88d1fa;
-  border-radius: 30px;
+  border: 2px solid #88d1fa;
+  border-radius: 5px;
 }
 .O124_choice {
+    padding-left: 2px;
   height: 30px;
   width: 66px;
 }
@@ -64,10 +78,11 @@ table {
   background: url(./oneimg/allstring.png) no-repeat transparent;
 }
 .O124_import input {
-  border: 0;
-  height: 30px;
+  border: none;
+  height: 28px;
 }
 .O124_seabutton {
+    font-size: 16px;
   background-color: #0fa2f6;
   width: 66px;
   color: white;
@@ -114,9 +129,19 @@ table {
   width: 72px;
 }
 .O124_mainnavi .O124_naviwid {
+    position: relative;
   text-align: center;
   background: url(./oneimg/mainnavistring.png) no-repeat;
   width: 72px;
+}
+.trigon{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 2px solid #0096ff;
+    border-left: 2px solid #0096ff;
+    border-right: 2px solid #0096ff;
+    border-bottom: 10px solid white;
 }
 .O124_mainnavi .O124_naviwid2 {
   background: url(./oneimg/mainnavistring.png) no-repeat;
@@ -129,18 +154,26 @@ table {
 .O124_mainnavi .O124_inrandomta {
   height: 28px;
   padding-right: 10px;
-  width: 100px;
+  width: 115px;
 }
 .O124_inrandomta .O124_inrandomtd {
-  border: 2px solid #017eff;
+    text-align: center;
+  border: 1px solid #017eff;
+  border-radius: 15px;
   background: url(./oneimg/lislogo.png) no-repeat;
-  background-position-x: right;
+  background-position-x: 80px;
   background-position-y: center;
 }
 .O124_mainnavi .O124_rank {
   text-align: right;
   font-weight: bold;
   width: 216px;
+}
+.O124_mainnavi .O124_rank a{
+    font: 12px Arial, Helvetica, sans-serif;
+}
+.O124_mainnavi .O124_rank2 a{
+    font: 12px Arial, Helvetica, sans-serif;
 }
 .O124_mainnavi .O124_rank2 {
   background: url(./oneimg/mainnavistring2.png) no-repeat;
@@ -180,6 +213,9 @@ table {
 }
 .O124_seconavi .O124_insecoavi .O124_insecoavired a {
   color: red;
+}
+.O124_seconavi .O124_insecoavi .O124_insecoavired td{
+    background: none;
 }
 .O124_fourmain {
   width: 960px;
@@ -244,6 +280,7 @@ table {
   width: 480px;
   height: 30px;
   border: 1px solid #cdd4dc;
+  border-radius: 5px;
 }
 .O124_infourmiddlemiddle {
   margin-top: 12px;
